@@ -2,4 +2,6 @@ Multiple UV's: Multiple uv's allow more than one texture on a model and in my ca
 
 Lambert: I added this to my lava trail by adding a color to basecolor.
 
+Lerp: I added this affect to the lava trail coming from the cave. I took two colors and but them into a lerp node. Color A + B --> Lerp and added time + multiply(controls the speed) to sine for continuous changing 
+
 
