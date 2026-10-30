@@ -15,4 +15,10 @@ SimpleDiffusewithambient: I used this on the enemy character. I implemented it b
 
 Mountain: I made a simple shader that took in a texture2d to add a cave texture to the cube in the background<img 
                                                                                                               width="561" height="376" alt="REALROCK" src="https://github.com/user-attachments/assets/6eded7d6-2b7b-4a35-8311-cc2a75c62185" />
+
+LavaGround: under the floor I added a lava ground that used tiling and offset.
+
+<img width="717" height="372" alt="image" src="https://github.com/user-attachments/assets/0aac1e90-ccfc-49f0-83b9-87d745a3e776" />
+
+                                                                                                              
  
