@@ -8,7 +8,8 @@ Lambert: I added this to my lava trail by adding a color to basecolor.
 Rim Lighting: I added this on the trail/erupt to give that hot look to it. It works by getting the view direction and normal vector and put it in a dot product then its gets saturated and then gets put into one minus, it then gets put in a power node to control the power and I made a RimPower property so I can control without being in shader graph, I also did this for RimColor and BaseColor.
 
 
-SimpleDiffusewithambient: I used this on the enemy character. I implemented it by making to property's, base Color and base texture. I added base texture into sampletexture2d(base texture --> sample texture) and then added it into multiply A and added base color into B. I then added it into base color. And  put a bronze texture on it.<img width="625" height="350" alt="image" src="https://github.com/user-attachments/assets/f7b58bda-3ecc-44c3-90f0-755a655cf36a" />
+SimpleDiffusewithambient: I used this on the enemy character. I implemented it by making to property's, base Color and base texture. I added base texture into sampletexture2d(base texture --> sample texture) and then added it into multiply A and added base color into B. I then added it into base color. And  put a bronze texture on it
+.<img width="625" height="350" alt="image" src="https://github.com/user-attachments/assets/f7b58bda-3ecc-44c3-90f0-755a655cf36a" />
 
 Mountain: I made a simple shader that took in a texture2d to add a cave texture to the cube in the background<img width="561" height="376" alt="REALROCK" src="https://github.com/user-attachments/assets/6eded7d6-2b7b-4a35-8311-cc2a75c62185" />
  
